@@ -1,0 +1,124 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}.f-slider{
+    width: 100%;
+}
+.f-slider-img img{
+    width: 100%;
+}
+.bl-text{
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 3vw 0vw;
+}
+.blog-box-cantaner{
+margin-left: 15vw;
+margin-top: 5vw;
+grid-template: max-content;
+}
+.blog-box-cantaner-main-div{
+    display: grid;
+    /* grid-column: 3; */
+    gap: 7rem 2rem ;
+    grid-template-columns: repeat(3,1fr);
+    width: 85%;
+}
+.blog-cantbox{
+    width: 100%;
+    border-radius: 2vw;
+    height: 15vw;
+    /* border: solid 2px black;/ */
+}
+.b-b-t{
+    font-size: 1.2vw;
+    margin-top: 13vw;
+    margin-left: 1.2vw;
+}
+#Travel-slid{
+    height: 34vw;
+}
+.footer{
+    margin:10vw 0 2vw 0;
+    width: 100%;
+    height: 25vw;
+    border-top:solid 1px grey;
+    border-bottom:solid 1px grey;
+}
+.footer-flex{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+.footer-box{
+    
+    width: 100%;
+    /* height: 10vw; */
+    /* border: solid 2px black; */
+}
+.foot-text{
+    margin-left: 16vw;
+    width: 50%;
+/* margin:0  5vw; */
+font-size: 1.1vw;
+color: rgb(70, 67, 67);
+}
+.foot-img img{
+    margin-top: 3vw;
+    margin-left: 15vw;
+    /* margin: 0vw 10vw; */
+    width: 20%;
+}
+.f-b-1{
+    margin-left: 8vw;
+}
+.f-b-2-h{
+    color: rgb(29, 29, 29);
+    margin: 3vw 5vw 2vw 15vw;
+    font-size:1.3vw ;
+    font-weight: bold;
+}
+.f-b-t-2 a{
+    font-size: 1.2vw;
+    margin: 3vw 0vw 5vw 7vw;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom:solid 2px rgb(201, 198, 198) ;
+}
+.f-b-t-2 li{
+    width: 60%;
+    /* margin-left: 9vw; */
+margin: 1.2vw 0 1.2vw 9vw;
+
+}
+.let{
+    font-weight: bold;
+    font-size: 1.2vw;
+    margin: 3vw 7vw;
+}
+.foot-text-3 input{
+    background-color: rgb(210, 210, 210);
+    width: 50%;
+    height: 2.5vw;
+    margin-left: 7vw;
+    margin-top: vw;
+    border: solid 2px rgb(170, 164, 164);
+    border-radius: 0.5vw;
+    text-align:left;
+    font-size: 1VW;
+    font-weight: bold;
+}
+.foot-btn-3 input{ 
+    width: 50%;
+    height: 2.5vw;
+    border: none;
+    color: black;
+    margin-left: 7vw;
+    margin-top: 1vw;
+    border-radius: 0.5vw;
+font-size:1vw;
+font-weight: bold;
+    background-color: rgb(255, 234, 0);}
